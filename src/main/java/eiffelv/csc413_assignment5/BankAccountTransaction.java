@@ -10,6 +10,17 @@ import java.util.Random;
  *
  * @author Eiffel
  */
+class BankAccountTransaction {
+
+    // Attributes to fit the minimum as stated in Assignment Instructions
+    // Rest are implemented in classes below.
+    private int id;
+    private String datetime;
+    private String type;
+    private String description;
+    private String status;
+}
+
 interface BankAccount {
 
     void deposit(double amount);
